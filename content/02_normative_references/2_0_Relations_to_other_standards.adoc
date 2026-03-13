@@ -20,10 +20,10 @@ image::odr_rel_open_x.png[img1, 900, title = "Relation between OpenDRIVE, OpenCR
 
 == References to other standards
 
-* ISO 8855 for right handed coordinate systems
-* ISO 8601 for time / date
+* ISO 8855 for right handed coordinate systems cite:[iso8855]
+* ISO 8601 for time / date cite:[iso8601]
 * ISO 8859-1 for plain-text encoding
 * Georeferencing (ISO DIN 19111)
-* ASAM OpenDRIVE
-* ASAM OpenSCENARIO
+* ASAM OpenDRIVE cite:[odr]
+* ASAM OpenSCENARIO cite:[osc]
 * IEEE 754
