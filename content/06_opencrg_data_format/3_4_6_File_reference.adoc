@@ -25,7 +25,7 @@ File references use the following symbols for describing paths.
 | `/` | Path delimiter.
 | `.` | Current directory.
 | `..`| Superordinate directory.
-| `$` | Reference to environment variable.
+| `\$` | Reference to environment variable.
 |===
 
 
