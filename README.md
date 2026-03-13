@@ -1,4 +1,4 @@
-# ASAM OpenCRG®
+# ASAM OpenCRG<sup>®</sup>
 
 ASAM OpenCRG defines a file format for the description of road surfaces. It was originally developed to store high-precision elevation data from road surface scans. The primary use for this data is in tire, vibration or driving simulation. Precise elevation data allows realistic endurance simulation of vehicle components or the entire vehicle. For driving simulators, it allows a realistic 3D-rendering of the road surface. The file format can also be used for other types of road surface properties, e.g. for the friction coefficient or grey values.  
 
