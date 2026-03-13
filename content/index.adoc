@@ -2,7 +2,7 @@
 :root-path: ./
 include::{root-path}_config.adoc[]
 //NOTE: All central attributes for Asciidoctor have to be defined in the _config.adoc AND in the antora.yml in the .antora folder in root
-= ASAM OpenMATERIAL 3D BS 1.0.0 Specification, 2025-04-03
+= ASAM OpenCRG BS 2.0.0 Specification, 2026-01-26
 // DO NOT USE THE ATTRIBUTE {THIS_STANDARD} in the document title, it will break with Antora build pipeline!
 
 // DO NOT CHANGE!!!
@@ -14,11 +14,16 @@ include::{root-path}_config.adoc[]
 [IMPORTANT]
 .Disclaimer
 ====
-This document is the copyrighted property of ASAM e.V.
-In alteration to the regular https://www.asam.net/license[license terms], ASAM allows unrestricted distribution of this standard. §2 (1) of ASAM's regular https://www.asam.net/license[license terms] is therefore substituted by the following clause: "The licensor grants everyone a basic, non-exclusive, and unlimited license to use the standard {THIS_STANDARD}".
+Copyright 2026 ASAM e.V.
+
+This standard is published by ASAM e.V.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this document except in compliance with the License.
+
+You may obtain a copy of the License at: https://www.apache.org/licenses/LICENSE-2.0
 ====
 
-ASAM OpenMATERIAL is a registered trademark of ASAM e.V.
+ASAM OpenCRG is a registered trademark of ASAM e.V.
 
 //
 // DO NOT CHANGE!!!

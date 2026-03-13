@@ -1,7 +1,7 @@
 # Component name (without spaces!). All content repositories with the same component name are merged in Antora.
-name: asamopenmaterial
+name: asamopencrg
 # CENTRAL DOCUMENT ONLY!!! Display name of the component. Define only once per component!
-title: ASAM OpenMATERIAL 3D
+title: ASAM OpenCRG
 version: 
   v(?<v>+({0..99}).+({0..99}).+({0..99})): $<v>
   v(?<version>+({0..99}).+({0..99}).+({0..99}))-(?<suffix>*): $<version>-$<suffix>
@@ -10,15 +10,15 @@ version:
 # CENTRAL DOCUMENT ONLY!!! First page of the component. Define only once per component!
 start_page: specification:index.adoc
 
-# THE FOLLOWING MAY ONLY DEFINED FOR THE CENTRAL DOCUMENT!!!
+# THE FOLLOWING MAY ONLY BE DEFINED FOR THE CENTRAL DOCUMENT!!!
 asciidoc: # Sets global AsciiDoc attributes that are applied for every page of this component (from all repositories with the same version and component name!)
   attributes:
     # START - Mandatory ASAM attributes
     use-antora-rules: true
-    THIS_STANDARD: ASAM OpenMATERIAL<sup>®</sup>3D # Normal attribute
-    THIS_STANDARD_TITLE: 'ASAM OpenMATERIAL^®^ 3D' # Normal attribute
-    # THIS_STANDARD: ASAM OpenMATERIAL # PDF version attribute
-    # THIS_STANDARD_TITLE: 'ASAM OpenMATERIAL' # PDF version attribute
+    THIS_STANDARD: ASAM OpenCRG<sup>®</sup> # Normal attribute
+    THIS_STANDARD_TITLE: 'ASAM OpenCRG^®^' # Normal attribute
+    # THIS_STANDARD: ASAM OpenCRG # PDF version attribute
+    # THIS_STANDARD_TITLE: 'ASAM OpenCRG' # PDF version attribute
     partials-path: partial$
     root-path: page$
     appendix-caption: Annex
@@ -28,11 +28,11 @@ asciidoc: # Sets global AsciiDoc attributes that are applied for every page of t
     reusedir: reuse
     imagesoutdir: ./images/generated_images
     asamBibliography: 'specification:bibliography.bib'
-    generate-attachments: [["attachment$schemas/", "generated/schema-files.zip", "clean"], ["attachment$examples/", "generated/example-files.zip", "clean"]]
-    page-download-links: [["generated/schema-files.zip","Schema files"], ["generated/example-files.zip","Example files"]]
+    generate-attachments: [["attachment$capi/", "generated/c-api.zip", "clean"], ["attachment$matlab/", "generated/matlab.zip", "clean"]]
+    page-download-links: [["generated/c-api.zip","C-API"], ["generated/matlab.zip","Matlab"]]
 
 nav:
-  - modules/specification/nav-openmaterial.adoc
+  - modules/specification/nav-opencrg.adoc
   - modules/specification/nav_loft.adoc
 
 # Add more items here as required.

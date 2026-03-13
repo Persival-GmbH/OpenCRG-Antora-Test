@@ -4,7 +4,7 @@
 site:
   title: ASAM OpenCRG®
   url: https://persival-gmbh.github.io/OpenCRG-Antora-Test/
-  start_page: asamopenmaterial:specification:index.adoc
+  start_page: asamopencrg:specification:index.adoc
 # end::site[]
 urls: # Creates a redirect for the newest version to the link "latest"
   latest_version_segment_strategy: redirect:to
@@ -52,7 +52,7 @@ asciidoc:
     xrefstyle: short@
     listing-caption: Code
     page-width-limit: none@
-    THIS_STANDARD: ASAM OpenMATERIAL 3D
+    THIS_STANDARD: ASAM OpenCRG
 
 
 # end::attributes[]
