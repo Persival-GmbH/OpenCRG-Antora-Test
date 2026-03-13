@@ -1,0 +1,24 @@
+[#top-normative_references-normative_references]
+= Normative references
+
+ifndef::include-only-once[]
+:root-path: ../
+include::{root-path}_config.adoc[]
+endif::[]
+
+The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document.
+For dated references, only the edition cited applies.
+For undated references, the latest edition of the referenced document (including any amendments) applies.
+
+Standards referenced in this section are normative in such a way that parts or the whole standard shall be applied when implementing the referenced functionality.
+Standards referenced in this section shall be cited normatively in the text.
+
+* {GLO_VAR_STA_ASAM_OpenCRG} cite:[ocr]
+* ASAM OpenSCENARIO XML cite:[osc]
+* ASAM OpenLABEL cite:[ola]
+* ASAM OpenDRIVE cite:[odr]
+* ASAM OSI cite:[osi]
+* FMI cite:[fmi]
+* ISO 8855 cite:[iso8855]
+* ISO 8601 cite:[iso8601]
+* OGC CDB cite:[ogc]

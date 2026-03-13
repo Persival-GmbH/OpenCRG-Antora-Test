@@ -1,0 +1,10 @@
+[#top-backward_compatibility-backward_compatibility]
+= Backward compatibility
+
+ifndef::include-only-once[]
+:root-path: ../
+include::{root-path}_config.adoc[]
+endif::[]
+
+This is the first release of this standard published by ASAM.
+Therefore, no information about the backward compatibility of this standard has been added to this section.

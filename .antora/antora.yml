@@ -1,0 +1,41 @@
+# Component name (without spaces!). All content repositories with the same component name are merged in Antora.
+name: asamopenmaterial
+# CENTRAL DOCUMENT ONLY!!! Display name of the component. Define only once per component!
+title: ASAM OpenMATERIAL 3D
+version: 
+  v(?<v>+({0..99}).+({0..99}).+({0..99})): $<v>
+  v(?<version>+({0..99}).+({0..99}).+({0..99}))-(?<suffix>*): $<version>-$<suffix>
+  deploy: 'current'
+  (*): 'pull-request'
+# CENTRAL DOCUMENT ONLY!!! First page of the component. Define only once per component!
+start_page: specification:index.adoc
+
+# THE FOLLOWING MAY ONLY DEFINED FOR THE CENTRAL DOCUMENT!!!
+asciidoc: # Sets global AsciiDoc attributes that are applied for every page of this component (from all repositories with the same version and component name!)
+  attributes:
+    # START - Mandatory ASAM attributes
+    use-antora-rules: true
+    THIS_STANDARD: ASAM OpenMATERIAL<sup>®</sup>3D # Normal attribute
+    THIS_STANDARD_TITLE: 'ASAM OpenMATERIAL^®^ 3D' # Normal attribute
+    # THIS_STANDARD: ASAM OpenMATERIAL # PDF version attribute
+    # THIS_STANDARD_TITLE: 'ASAM OpenMATERIAL' # PDF version attribute
+    partials-path: partial$
+    root-path: page$
+    appendix-caption: Annex
+    # appendix-offset: 1
+    # asam-terminology: v0.0.1@ASAM_Terminology:ROOT:partial$terms_and_definitions_opendrive.adoc
+    topicdir: topics
+    reusedir: reuse
+    imagesoutdir: ./images/generated_images
+    asamBibliography: 'specification:bibliography.bib'
+    generate-attachments: [["attachment$schemas/", "generated/schema-files.zip", "clean"], ["attachment$examples/", "generated/example-files.zip", "clean"]]
+    page-download-links: [["generated/schema-files.zip","Schema files"], ["generated/example-files.zip","Example files"]]
+
+nav:
+  - modules/specification/nav-openmaterial.adoc
+  - modules/specification/nav_loft.adoc
+
+# Add more items here as required.
+# Recommended: One navigation file per document/repository!
+# Recommended: Name your module (folder) as your document type, e.g. "standard" or "concept" or "topic-guidelines"
+# Format: - modules/<module-folder-name>/<navigation-file-name>.adoc

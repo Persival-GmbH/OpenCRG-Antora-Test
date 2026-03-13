@@ -1,0 +1,24 @@
+[#top-preface-foreword]
+= Foreword
+
+ifndef::include-only-once[]
+:root-path: ../
+include::{root-path}_config.adoc[]
+endif::[]
+
+ASAM e.V. (Association for Standardization of Automation and Measuring Systems) is a non-profit organization that promotes standardization of tool chains in automotive development and testing.
+Our members are international car manufacturers, suppliers, tool vendors, engineering service providers, and research institutes.
+ASAM standards are developed by experts from our member companies and are based on real use cases.
+ASAM is the legal owner of these standards and is responsible for their distribution and marketing.
+
+ASAM standards span a wide range of use cases in automotive development, test, and validation.
+They define file formats, data models, protocols, and interfaces.
+The standards enable easy exchange of data and tools within and across tool chains.
+They are applied worldwide.
+
+{THIS_STANDARD} defines physical _material properties_ and standardizes _3D model_ structures addressing the need for accurate, standardized _3D assets_ and _material properties_ to simulate sensor behavior effectively.
+
+{THIS_STANDARD} is divided into two key segments:
+
+- Material: Covers formats and definitions for _material properties_, such as surface roughness and electromagnetic properties.
+- Geometry: Establishes structures for object classes, standardizing nodes, naming, and coordinate systems to support _3D model_ exchange and animation.

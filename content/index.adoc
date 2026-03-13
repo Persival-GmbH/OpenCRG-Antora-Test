@@ -1,0 +1,68 @@
+[#top-this-standard]
+:root-path: ./
+include::{root-path}_config.adoc[]
+//NOTE: All central attributes for Asciidoctor have to be defined in the _config.adoc AND in the antora.yml in the .antora folder in root
+= ASAM OpenMATERIAL 3D BS 1.0.0 Specification, 2025-04-03
+// DO NOT USE THE ATTRIBUTE {THIS_STANDARD} in the document title, it will break with Antora build pipeline!
+
+// DO NOT CHANGE!!!
+//
+:titleoffset!:
+:sectnums!:
+
+
+[IMPORTANT]
+.Disclaimer
+====
+This document is the copyrighted property of ASAM e.V.
+In alteration to the regular https://www.asam.net/license[license terms], ASAM allows unrestricted distribution of this standard. §2 (1) of ASAM's regular https://www.asam.net/license[license terms] is therefore substituted by the following clause: "The licensor grants everyone a basic, non-exclusive, and unlimited license to use the standard {THIS_STANDARD}".
+====
+
+ASAM OpenMATERIAL is a registered trademark of ASAM e.V.
+
+//
+// DO NOT CHANGE!!!
+
+
+ifndef::use-antora-rules[]
+
+[preface]
+include::00_preface/foreword.adoc[leveloffset=+1]
+[preface]
+include::00_preface/introduction.adoc[leveloffset=+1]
+
+:sectnums:
+include::01_scope/scope.adoc[leveloffset=+1]
+include::02_normative_references/normative-references.adoc[leveloffset=+1]
+include::03_abbreviations/abbreviations.adoc[leveloffset=+1]
+include::04_backward-compatibility/backward-compatibility.adoc[leveloffset=+1]
+include::05_terms-and-definitions/terms-and-definitions.adoc[leveloffset=+1]
+include::06_use-cases/use-cases.adoc[leveloffset=+1]
+= Geometry
+include::07_geometry/introduction.adoc[leveloffset=+1]
+include::07_geometry/general.adoc[leveloffset=+1]
+include::07_geometry/object-classes-introduction.adoc[leveloffset=+1]
+include::07_geometry/file-format-support.adoc[leveloffset=+1]
+include::07_geometry/asset-schema.adoc[leveloffset=+1]
+include::07_geometry/mapping-schema.adoc[leveloffset=+1]
+= Material
+include::08_material/introduction.adoc[leveloffset=+1]
+include::08_material/material-schema.adoc[leveloffset=+1]
+include::08_material/material-emp-schema.adoc[leveloffset=+1]
+include::08_material/material-optical-schema.adoc[leveloffset=+1]
+include::08_material/material-brdf-schema.adoc[leveloffset=+1]
+include::08_material/material-reflection-coefficient-schema.adoc[leveloffset=+1]
+
+
+
+:sectnums!:
+
+[bibliography]
+include::bibliography.adoc[leveloffset=+1]
+
+:sectnums!:
+include::loft/list-of-figures.adoc[leveloffset=+1]
+
+:sectnums!:
+include::loft/list-of-tables.adoc[leveloffset=+1]
+endif::[]
