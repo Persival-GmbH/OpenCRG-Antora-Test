@@ -9,7 +9,7 @@ include::00_preface/introduction.adoc[leveloffset=+1]
 
 :sectnums:
 include::01_scope/scope.adoc[leveloffset=+1]
-include::02_normative_references/2_0_Relations_to_other_standards.adoc[]
+include::02_normative_references/2_0_Relations_to_other_standards.adoc[leveloffset=+1]
 include::03_abbreviations/abbreviations.adoc[leveloffset=+1]
 include::04_backward_compatibility/backward-compatibility.adoc[leveloffset=+1]
 include::05_terms_and_definitions/terms-and-definitions.adoc[leveloffset=+1]
