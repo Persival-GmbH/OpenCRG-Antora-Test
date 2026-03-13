@@ -1,4 +1,4 @@
-[#top-setting_up_the_opencrg_tools
+[#top-setting_up_the_opencrg_tools]
 = Setting up the OpenCRG tools
 
 ifndef::include-only-once[]
