@@ -1,0 +1,28 @@
+== Relations to other standards
+:imagesdir: images/
+:stem: latexmath
+
+=== Positioning of ASAM OpenCRG within ASAM activities
+
+ASAM OpenCRG is part of the ASAM simulation standards that focus on simulation data for the automotive environment. Next to OpenCRG, ASAM provides other standards for the simulation domain, like ASAM OpenDRIVE and ASAM OpenSCENARIO.
+
+=== Relation of ASAM OpenCRG to OpenDRIVE and OpenSCENARIO
+
+ASAM OpenCRG defines a storage format for the static description of road surfaces. In combination with ASAM OpenDRIVE it is possible to add very detailed road surface descriptions to road networks. ASAM OpenDRIVE and ASAM OpenCRG only contain static content. To add dynamic content ASAM OpenSCENARIO is needed. When combined, all three standards provide a scenario-driven description of traffic simulation that contains static and dynamic content.
+
+image::odr_rel_open_x.png[img1, 900, title = "Relation between OpenDRIVE, OpenCRG, and OpenSCENARIO"]
+
+=== Backward compatibility to earlier releases
+
+ASAM OpenCRG 2.0.0 is backward compatible to OpenCRG 1.0.0. 
+To assure full backward and forward compatibility do not use the features for geographical positions, which are introduced in <<Mapping OpenCRG data to geographical positions>>. An OpenCRG file created with the mpro field is only valid within version 1.2.0 or higher.
+
+=== References to other standards
+
+* ISO 8855 for right handed coordinate systems
+* ISO 8601 for time / date
+* ISO 8859-1 for plain-text encoding
+* Georeferencing (ISO DIN 19111)
+* ASAM OpenDRIVE
+* ASAM OpenSCENARIO
+* IEEE 754
