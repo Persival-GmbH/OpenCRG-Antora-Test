@@ -1,6 +1,12 @@
-== Relations to other standards
-:imagesdir: images/
-:stem: latexmath
+[#top-normative_references-normative_references]
+= Normative references
+
+ifndef::include-only-once[]
+:root-path: ../
+:imagesdir: {root-path}/_images
+:includedir: {root-path}/_images
+include::{root-path}_config.adoc[]
+endif::[]
 
 === Positioning of ASAM OpenCRG within ASAM activities
 
