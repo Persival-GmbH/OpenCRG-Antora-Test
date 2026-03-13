@@ -43,7 +43,6 @@ jobs:
          path: repo
          fetch-depth: 0 # test if depth in fetch history is required
          submodules: recursive
-         ref: deploy
 
     - name: Configure Pages
       uses: actions/configure-pages@v4

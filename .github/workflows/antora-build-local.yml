@@ -41,11 +41,6 @@ jobs:
          fetch-depth: 0 # test if depth in fetch history is required
          submodules: recursive
 
-    - name: Generate AsciiDoc from JSON
-      working-directory: repo/scripts
-      run: |
-        python3 generate_schema_docs.py
-
     - name: Configure Pages
       uses: actions/configure-pages@v4
 
