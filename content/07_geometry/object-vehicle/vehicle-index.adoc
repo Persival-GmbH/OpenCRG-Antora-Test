@@ -1,5 +1,0 @@
-= Vehicle structure
-
-include::vehicle-general.adoc[leveloffset=+1]
-include::vehicle-naming-convention.adoc[leveloffset=+1]
-include::vehicle-structure.adoc[leveloffset=+1]

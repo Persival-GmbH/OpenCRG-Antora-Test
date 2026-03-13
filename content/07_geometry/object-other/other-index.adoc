@@ -1,4 +1,0 @@
-= Other structure
-
-include::other-general.adoc[leveloffset=+1]
-include::other-structure.adoc[leveloffset=+1]
