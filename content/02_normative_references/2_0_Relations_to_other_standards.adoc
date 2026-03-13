@@ -1,5 +1,5 @@
 [#top-normative_references-normative_references]
-= Normative references
+== Normative references
 
 ifndef::include-only-once[]
 :root-path: ../
