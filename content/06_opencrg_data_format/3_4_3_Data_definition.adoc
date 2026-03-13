@@ -1,6 +1,13 @@
 ==== Data definition
-:imagesdir: images/
+
+ifndef::include-only-once[]
+:root-path: ../
+:imagesdir: {root-path}/_images
+:includedir: {root-path}/_images
 :stem: latexmath
+:sampledir: ../../crg-text
+include::{root-path}_config.adoc[]
+endif::[]
 
 The _data definition_ section defines the format and sequence of data in the following road data section. If an OpenCRG file contains a _road data_ section, a _data definition_ section is therefore mandatory.
 

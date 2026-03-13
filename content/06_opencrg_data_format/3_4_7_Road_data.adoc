@@ -1,6 +1,13 @@
 ==== Road data
-:imagesdir: images/
+
+ifndef::include-only-once[]
+:root-path: ../
+:imagesdir: {root-path}/_images
+:includedir: {root-path}/_images
 :stem: latexmath
+:sampledir: ../../crg-text
+include::{root-path}_config.adoc[]
+endif::[]
 
 The _road data_ section contains the actual road surface data. Road surface data is not limited to road elevation, although this is the primary use case. For example, an OpenCRG file may contain friction coefficients or color values.
 

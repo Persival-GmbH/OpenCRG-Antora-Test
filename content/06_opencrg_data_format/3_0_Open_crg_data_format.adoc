@@ -1,7 +1,14 @@
 == OpenCRG data format
-:imagesdir: ../images/
+
+ifndef::include-only-once[]
+:root-path: ../
+:imagesdir: {root-path}/_images
+:includedir: {root-path}/_images
 :stem: latexmath
 :sampledir: ../../crg-text
+include::{root-path}_config.adoc[]
+endif::[]
+
 include::3_1_Curved_regular_grids.adoc[]
 
 include::3_2_Data_file_structure.adoc[]

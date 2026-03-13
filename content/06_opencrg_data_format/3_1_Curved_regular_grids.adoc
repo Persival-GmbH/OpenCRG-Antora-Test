@@ -1,6 +1,13 @@
 === Curved regular grids
-:imagesdir: images/
+
+ifndef::include-only-once[]
+:root-path: ../
+:imagesdir: {root-path}/_images
+:includedir: {root-path}/_images
 :stem: latexmath
+:sampledir: ../../crg-text
+include::{root-path}_config.adoc[]
+endif::[]
 
 A curved regular grid represents road surface data in proximity of an arbitrary road centerline. The road surface is tiled into a curved grid. Longitudinal cuts are parallel to the road centerline. Lateral cuts are orthogonal to the road centerline. One road data value is assigned to each tile. Road surface data usually represents road elevation but may also be used for other data, for example friction coefficients.
 

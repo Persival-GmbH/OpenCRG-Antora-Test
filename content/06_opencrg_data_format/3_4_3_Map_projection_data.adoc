@@ -1,6 +1,13 @@
 ==== Map projection data
-:imagesdir: images/
+
+ifndef::include-only-once[]
+:root-path: ../
+:imagesdir: {root-path}/_images
+:includedir: {root-path}/_images
 :stem: latexmath
+:sampledir: ../../crg-text
+include::{root-path}_config.adoc[]
+endif::[]
 
 // TODO: How do we use "WGS 84" in compound nouns?
 // TODO: maybe add georeferencing literature to bibliography (check map_intro.m, map_ecef2ecef.m)
