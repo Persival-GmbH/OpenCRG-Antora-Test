@@ -21,8 +21,8 @@ include::08_using_the_opencrg_tools/5_00_Using_the_OpenCRG_tools.adoc[leveloffse
 [bibliography]
 include::bibliography.adoc[leveloffset=+1]
 
-:sectnums!:
-[appendix]
-include::09_annexes/checker-rules.adoc[leveloffset=+1]
+// :sectnums!:
+// [appendix]
+// include::09_annexes/checker-rules.adoc[leveloffset=+1]
 
 :!antora_mapping:
