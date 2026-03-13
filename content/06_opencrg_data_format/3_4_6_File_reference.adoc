@@ -19,13 +19,14 @@ $ROAD_CRG_FILE
 File references use the following symbols for describing paths.
 
 .File reference symbols
+[cols="1l,4"]
 |===
 |Symbol |Function
 
-| `/` | Path delimiter.
-| `.` | Current directory.
-| `..`| Superordinate directory.
-| `\$` | Reference to environment variable.
+| / | Path delimiter.
+| . | Current directory.
+| ..| Superordinate directory.
+| $ | Reference to environment variable.
 |===
 
 
