@@ -42,7 +42,7 @@ include::02_normative_references/2_0_Relations_to_other_standards.adoc[leveloffs
 include::03_abbreviations/abbreviations.adoc[leveloffset=+1]
 include::04_backward_compatibility/backward-compatibility.adoc[leveloffset=+1]
 include::05_terms_and_definitions/terms-and-definitions.adoc[leveloffset=+1]
-include::06_opencrg_data_format/3_0_Open_crg_data_format.adoc[]
+include::06_opencrg_data_format/3_0_Open_crg_data_format.adoc[leveloffset=+1]
 = Geometry
 include::07_geometry/introduction.adoc[leveloffset=+1]
 include::07_geometry/general.adoc[leveloffset=+1]

@@ -18,11 +18,6 @@ ASAM OpenCRG defines a storage format for the static description of road surface
 
 image::odr_rel_open_x.png[img1, 900, title = "Relation between OpenDRIVE, OpenCRG, and OpenSCENARIO"]
 
-== Backward compatibility to earlier releases
-
-ASAM OpenCRG 2.0.0 is backward compatible to OpenCRG 1.0.0. 
-To assure full backward and forward compatibility do not use the features for geographical positions, which are introduced in <<Mapping OpenCRG data to geographical positions>>. An OpenCRG file created with the mpro field is only valid within version 1.2.0 or higher.
-
 == References to other standards
 
 * ISO 8855 for right handed coordinate systems
