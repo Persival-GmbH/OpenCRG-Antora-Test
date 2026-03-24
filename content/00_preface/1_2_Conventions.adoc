@@ -22,6 +22,7 @@ To ensure compliance with the OpenCRG standard, users must be able to distinguis
 
 The following rules for using modal verbs apply:
 
+[#tab-modal-verbs]
 .Rules for using modal verbs
 [%header, cols=2*]
 |===
@@ -56,6 +57,7 @@ must not
 
 This documentation uses the following typographical conventions:
 
+[#tab-typographic-conventions]
 .Typographical conventions
 [%header, cols=2*]
 |===

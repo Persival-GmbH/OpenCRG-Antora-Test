@@ -2,6 +2,7 @@
 
 The library files of the MATLAB tools are stored in `_open-crg_/matlab/lib/` and comprise the following:
 
+[#tab-evaluation-tools]
 .Evaluation tools
 |===
 |Filename | Description
@@ -41,7 +42,7 @@ The library files of the MATLAB tools are stored in `_open-crg_/matlab/lib/` and
 
 |===
 
-
+[#tab-visualization-tools]
 .Visualization and analysis tools
 |===
 |Filename | Description
@@ -147,6 +148,7 @@ The library files of the MATLAB tools are stored in `_open-crg_/matlab/lib/` and
 
 |===
 
+[#tab-file-input-output-tools]
 .File input and output tools
 |===
 |Filename | Description
@@ -183,6 +185,7 @@ The library files of the MATLAB tools are stored in `_open-crg_/matlab/lib/` and
 
 |===
 
+[#tab-checking-tools]
 .Checking tools
 |===
 |Filename | Description
@@ -267,7 +270,7 @@ The library files of the MATLAB tools are stored in `_open-crg_/matlab/lib/` and
 
 |===
 
-
+[#tab-generation-tools]
 .Generation tools
 |===
 |Filename | Description
@@ -289,6 +292,7 @@ The library files of the MATLAB tools are stored in `_open-crg_/matlab/lib/` and
 
 |===
 
+[#tab-geodetic-referencing-tools]
 .Geographic referencing tools
 |===
 |Filename | Description

@@ -18,6 +18,7 @@ $ROAD_CRG_FILE
 
 File references use the following symbols for describing paths.
 
+[#tab-file-reference-symbols]
 .File reference symbols
 [cols="1l,4"]
 |===
