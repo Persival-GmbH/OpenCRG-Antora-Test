@@ -38,14 +38,14 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
     - name: Checkout with submodules
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
          path: repo
          fetch-depth: 0 # test if depth in fetch history is required
          submodules: recursive
 
     - name: Configure Pages
-      uses: actions/configure-pages@v4
+      uses: actions/configure-pages@v6
 
     - name: Generate site
       uses: docker://ghcr.io/asam-ev/project-guide-docker:4
@@ -82,4 +82,4 @@ jobs:
     steps:
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v6
