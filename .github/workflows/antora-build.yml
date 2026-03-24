@@ -45,7 +45,7 @@ jobs:
          submodules: recursive
 
     - name: Configure Pages
-      uses: actions/configure-pages@v6
+      uses: actions/configure-pages@v5
 
     - name: Generate site
       uses: docker://ghcr.io/asam-ev/project-guide-docker:4
@@ -54,7 +54,7 @@ jobs:
         args: repo/run-build.sh # modified based on OSI
 
     - name: Upload Artifacts
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v4
       with:
         path: ./repo/site
 
