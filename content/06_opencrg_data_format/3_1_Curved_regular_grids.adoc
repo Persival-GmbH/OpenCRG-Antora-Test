@@ -1,4 +1,4 @@
-=== Curved regular grids
+== Curved regular grids
 
 ifndef::include-only-once[]
 :root-path: ../
