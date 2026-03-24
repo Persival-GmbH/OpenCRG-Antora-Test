@@ -16,7 +16,7 @@ permissions:
   id-token: write
 jobs:
   build:
-    name: Build OpenMATERIAL documentation and deploy it to gh-pages
+    name: Build OpenCRG documentation and deploy it to gh-pages
     runs-on: ubuntu-latest
     services:
       kroki:
