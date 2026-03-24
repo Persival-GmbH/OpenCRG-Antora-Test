@@ -1,9 +1,0 @@
-[#top-terms_and_definitions-terms_and_definitions]
-= Terms and definitions
-
-ifndef::include-only-once[]
-:root-path: ../
-include::{root-path}_config.adoc[]
-endif::[]
-
-*TODO*
