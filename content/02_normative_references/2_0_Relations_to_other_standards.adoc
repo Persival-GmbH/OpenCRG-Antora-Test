@@ -16,7 +16,9 @@ ASAM OpenCRG is part of the ASAM simulation standards that focus on simulation d
 
 ASAM OpenCRG defines a storage format for the static description of road surfaces. In combination with ASAM OpenDRIVE it is possible to add very detailed road surface descriptions to road networks. ASAM OpenDRIVE and ASAM OpenCRG only contain static content. To add dynamic content ASAM OpenSCENARIO is needed. When combined, all three standards provide a scenario-driven description of traffic simulation that contains static and dynamic content.
 
-image::odr_rel_open_x.png[img1, 900, title = "Relation between OpenDRIVE, OpenCRG, and OpenSCENARIO"]
+[#odr_rel_open_x]
+.Relation between OpenDRIVE, OpenCRG, and OpenSCENARIO
+image::odr_rel_open_x.png[,900]
 
 == References to other standards
 

@@ -18,7 +18,3 @@ The standard has the following scope:
 
 - Provide a standardized C-API for reading and evaluating CRG data within simulation environments.
 - Provide a MATLAB tool suite for the creation, modification, and validation of ASAM OpenCRG data sets.
-
-[#fig-openmaterial-overview]
-.Overview of {THIS_STANDARD} file formats and data flow
-image::odr_rel_open_x.png[,1100]
