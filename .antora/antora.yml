@@ -6,7 +6,7 @@ version:
   v(?<v>+({0..99}).+({0..99}).+({0..99})): $<v>
   v(?<version>+({0..99}).+({0..99}).+({0..99}))-(?<suffix>*): $<version>-$<suffix>
   main: 'current'
-  (*): 'pull-request'
+  HEAD: 'pull-request'
 # CENTRAL DOCUMENT ONLY!!! First page of the component. Define only once per component!
 start_page: specification:index.adoc
 
