@@ -51,7 +51,7 @@ jobs:
       uses: docker://ghcr.io/asam-ev/project-guide-docker:4
       env:
         # This maps the logic to an environment variable inside the container
-        PR_BRANCH: ${{ github.event_name == 'pull_request' && 'HEAD' || 'main' }}
+        PR_BRANCH: ${{ github.event_name == 'pull_request' && 'HEAD' || '' }}
       with:
         entrypoint: sh
         args: repo/run-build.sh # modified based on OSI
